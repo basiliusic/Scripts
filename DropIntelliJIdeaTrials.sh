@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Drop Intellijdea trial keys
+
+
 removeFrom() {
     for fileName in $1; do
         if [ ! -f fileName ]; then
